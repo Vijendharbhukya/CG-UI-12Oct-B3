@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Embeding Script tag in HTML Document</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        console.log("This text is diplaayed From the script tag embedded in the Head tag of the document");
+    </script>
+   <hr>
+
+    <script src="./Hello.js"></script>
+</head>
+<body>
+    <script>
+ console.log("This text is diplaayed From the script tag embedded in the Body tag of the document");
+    </script>
+    <hr>
+    <p>The actual script is in external script file called "Hello.js"</p>
+
+    <script>
+        console.log("This is text is displayed by Calling external function : "+dispHello());
+    </script>
+    <hr>
+</body>
+</html>
